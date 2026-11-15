@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Hũ Ký Ức — Chính sách quyền riêng tư / Privacy Policy</title>
+<title>Hũ Ký Ức — Chính sách quyền riêng tư / Privacy Policy / 隐私政策 / 隱私權政策</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet">
 <style>
@@ -40,7 +40,9 @@
   code{font-size:12.5px;background:var(--wall);padding:1px 6px;border-radius:6px}
   footer{color:var(--ink2);font-size:13px;border-top:1px solid var(--line);padding-top:16px;margin-top:36px}
   [data-lang]{display:none}
-  body.vi [data-lang="vi"], body.en [data-lang="en"]{display:block}
+  body.vi [data-lang="vi"], body.en [data-lang="en"],
+  body.zh-Hans [data-lang="zh-Hans"], body.zh-Hant [data-lang="zh-Hant"]{display:block}
+  .lang{flex-wrap:wrap}
 </style>
 </head>
 <body class="vi">
@@ -55,11 +57,21 @@
     </div>
     <div data-lang="en">
       <h1>Privacy Policy</h1>
-      <p class="sub">Hũ Ký Ức — Memory Jar (Android) · Effective 13 November 2026</p>
+      <p class="sub">Hũ Ký Ức — Memory Jar (Android) · Effective November 13, 2026</p>
+    </div>
+    <div data-lang="zh-Hans">
+      <h1>隐私政策</h1>
+      <p class="sub">记忆之罐（Hũ Ký Ức，Android）· 生效日期：2026年11月13日</p>
+    </div>
+    <div data-lang="zh-Hant">
+      <h1>隱私權政策</h1>
+      <p class="sub">記憶之罐（Hũ Ký Ức，Android）· 生效日期：2026年11月13日</p>
     </div>
     <div class="lang" role="group" aria-label="Ngôn ngữ / Language">
       <button type="button" data-set="vi" aria-pressed="true">Tiếng Việt</button>
       <button type="button" data-set="en" aria-pressed="false">English</button>
+      <button type="button" data-set="zh-Hans" aria-pressed="false" lang="zh-Hans">简体中文</button>
+      <button type="button" data-set="zh-Hant" aria-pressed="false" lang="zh-Hant">繁體中文</button>
     </div>
   </div>
 </header>
@@ -154,9 +166,99 @@
   <p>For privacy questions, please email: <a href="mailto:hukyuc.app@protonmail.com">hukyuc.app@protonmail.com</a></p>
 </section>
 
+<!-- ===================== 简体中文 ===================== -->
+<section data-lang="zh-Hans">
+  <div class="summary">
+    <strong>摘要</strong>
+    <ul>
+      <li>「记忆之罐」<strong>不收集、不发送、也不分享</strong>你的任何数据。</li>
+      <li>没有账号，没有广告，没有任何统计或追踪工具。</li>
+      <li>所有瞬间、照片、视频和设置都只保存在你的手机上。</li>
+      <li>本应用没有访问互联网的权限。</li>
+    </ul>
+  </div>
+
+  <h2>1. 你在应用中创建的数据</h2>
+  <p>你可以保存瞬间（标题、备注、日期）、你选择的照片和视频，以及生日、「预计时光额度」等设置。所有内容都保存在你手机上本应用的私有存储空间中。开发者无法查看、接收或复制这些数据。</p>
+
+  <h2>2. 照片、视频和相机</h2>
+  <p>本应用使用 <strong>Android 系统的照片选择器</strong>：只能看到你选中的照片/视频，无法读取你的相册。你选中的照片/视频会复制一份到本应用的私有存储空间，这样即使原图被删除，瞬间也不会丢失。拍照时，本应用会打开手机自带的相机应用；本应用不申请相机权限。</p>
+
+  <h2>3. 本应用使用的权限</h2>
+  <table>
+    <tr><th>权限</th><th>用途</th></tr>
+    <tr><td>通知</td><td>发送你开启并设定时间的温柔提醒。只在你开启提醒时询问，随时可以关闭。</td></tr>
+    <tr><td>开机启动</td><td>手机重启后重新设定提醒。</td></tr>
+    <tr><td>振动、保持唤醒</td><td>由通知和音频播放库声明（提醒时振动、音乐流畅播放）。</td></tr>
+    <tr><td>查看网络状态</td><td>由音频/视频播放库声明；本应用不会连接互联网。</td></tr>
+    <tr><td>写入存储（仅限 Android 10 及以下）</td><td>在你点按「保存到手机」时把照片存入相册。</td></tr>
+  </table>
+
+  <h2>4. 备份与换机</h2>
+  <p>本应用<strong>关闭了自动备份到 Google Drive</strong>。你可以在设置中自行创建备份文件（.zip），通过 Android 的分享面板发送到<em>你</em>选择的地方。备份文件没有加密，请存放在你信任的地方。从 Android 12 起，通过数据线或 Smart Switch 直接迁移到新手机时，仍会带上本应用的数据。</p>
+
+  <h2>5. 删除数据</h2>
+  <p>你可以在应用中逐个删除瞬间。卸载本应用会删除它在手机上的全部数据。由于开发者不保留任何副本，删除后将无法恢复，除非你还保留着备份文件。</p>
+
+  <h2>6. 儿童</h2>
+  <p>本应用并非面向儿童，也不收集任何人（包括儿童）的数据。</p>
+
+  <h2>7. 政策变更</h2>
+  <p>如果本政策有变更（例如推出新功能时），本页面会随新的生效日期一同更新。任何数据处理方式的变化，都会在生效前于应用内清楚说明。</p>
+
+  <h2>8. 联系方式</h2>
+  <p>有关隐私的任何问题，请发送邮件至：<a href="mailto:hukyuc.app@protonmail.com">hukyuc.app@protonmail.com</a></p>
+</section>
+
+<!-- ===================== 繁體中文 ===================== -->
+<section data-lang="zh-Hant">
+  <div class="summary">
+    <strong>摘要</strong>
+    <ul>
+      <li>「記憶之罐」<strong>不收集、不傳送、也不分享</strong>你的任何資料。</li>
+      <li>沒有帳號，沒有廣告，沒有任何統計或追蹤工具。</li>
+      <li>所有瞬間、照片、影片和設定都只儲存在你的手機上。</li>
+      <li>本應用程式沒有存取網際網路的權限。</li>
+    </ul>
+  </div>
+
+  <h2>1. 你在應用程式中建立的資料</h2>
+  <p>你可以儲存瞬間（標題、備註、日期）、你選擇的照片和影片，以及生日、「預計時光額度」等設定。所有內容都儲存在你手機上本應用程式的私有儲存空間中。開發者無法檢視、接收或複製這些資料。</p>
+
+  <h2>2. 照片、影片和相機</h2>
+  <p>本應用程式使用 <strong>Android 系統的照片選擇器</strong>：只能看到你選中的照片/影片，無法讀取你的相簿。你選中的照片/影片會複製一份到本應用程式的私有儲存空間，這樣即使原圖被刪除，瞬間也不會丟失。拍照時，本應用程式會開啟手機自帶的相機應用程式；本應用程式不申請相機權限。</p>
+
+  <h2>3. 本應用程式使用的權限</h2>
+  <table>
+    <tr><th>權限</th><th>用途</th></tr>
+    <tr><td>通知</td><td>傳送你開啟並設定時間的溫柔提醒。只在你開啟提醒時詢問，隨時可以關閉。</td></tr>
+    <tr><td>開機啟動</td><td>手機重啟後重新設定提醒。</td></tr>
+    <tr><td>振動、保持喚醒</td><td>由通知和音訊播放庫宣告（提醒時振動、音樂流暢播放）。</td></tr>
+    <tr><td>檢視網路狀態</td><td>由音訊/影片播放庫宣告；本應用程式不會連線網際網路。</td></tr>
+    <tr><td>寫入儲存（僅限 Android 10 及以下）</td><td>在你點按「儲存到手機」時把照片存入相簿。</td></tr>
+  </table>
+
+  <h2>4. 備份與換機</h2>
+  <p>本應用程式<strong>關閉了自動備份到 Google Drive</strong>。你可以在設定中自行建立備份檔案（.zip），透過 Android 的分享面板傳送到<em>你</em>選擇的地方。備份檔案沒有加密，請存放在你信任的地方。從 Android 12 起，透過資料線或 Smart Switch 直接遷移到新手機時，仍會帶上本應用程式的資料。</p>
+
+  <h2>5. 刪除資料</h2>
+  <p>你可以在應用程式中逐個刪除瞬間。解除安裝本應用程式會刪除它在手機上的全部資料。由於開發者不保留任何副本，刪除後將無法恢復，除非你還保留著備份檔案。</p>
+
+  <h2>6. 兒童</h2>
+  <p>本應用程式並非面向兒童，也不收集任何人（包括兒童）的資料。</p>
+
+  <h2>7. 政策變更</h2>
+  <p>如果本政策有變更（例如推出新功能時），本頁面會隨新的生效日期一同更新。任何資料處理方式的變化，都會在生效前於應用程式內清楚說明。</p>
+
+  <h2>8. 聯絡方式</h2>
+  <p>有關隱私的任何問題，請傳送郵件至：<a href="mailto:hukyuc.app@protonmail.com">hukyuc.app@protonmail.com</a></p>
+</section>
+
 <footer>
   <span data-lang="vi">Hũ Ký Ức — trân trọng từng khoảnh khắc. Cập nhật lần cuối: 13/11/2026.</span>
-  <span data-lang="en">Hũ Ký Ức — treasure every moment. Last updated: 13 November 2026.</span>
+  <span data-lang="en">Hũ Ký Ức — treasure every moment. Last updated: November 13, 2026.</span>
+  <span data-lang="zh-Hans">记忆之罐 — 珍惜每一个瞬间。最后更新：2026年11月13日。</span>
+  <span data-lang="zh-Hant">記憶之罐 — 珍惜每一個瞬間。最後更新：2026年11月13日。</span>
 </footer>
 </main>
 
@@ -173,7 +275,15 @@
     document.querySelectorAll('.lang button').forEach(function (b) {
       b.addEventListener('click', function () { set(b.dataset.set); });
     });
-    if (location.hash === '#en') set('en');
+    // Chọn ngôn ngữ: #vi / #en / #zh-Hans / #zh-Hant, không có thì theo trình duyệt.
+    var langs = ['vi', 'en', 'zh-Hans', 'zh-Hant'];
+    var h = location.hash.slice(1);
+    if (langs.indexOf(h) >= 0) { set(h); return; }
+    var n = (navigator.language || 'vi').toLowerCase();
+    if (n.indexOf('vi') === 0) set('vi');
+    else if (n.indexOf('zh') === 0)
+      set(/hant|tw|hk|mo/.test(n) ? 'zh-Hant' : 'zh-Hans');
+    else set('en');
   })();
 </script>
 </body>
